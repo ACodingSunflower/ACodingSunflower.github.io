@@ -66,3 +66,19 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
 }
+
+.cv-menu {
+    display: none;
+}
+
+.menu ul li:hover .cv-menu {
+    display: flex;
+    position: absolute;
+    background-color: #4d041ec5;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
