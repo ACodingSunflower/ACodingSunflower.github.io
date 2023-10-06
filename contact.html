@@ -34,8 +34,13 @@
             <input class="input-class" type="email" id="pemail" name="pemail"><br><br>
             <label for="message">Message</label><br>
             <textarea class="input-class" name="message" rows="10" cols="30"></textarea><br><br>
-            <button class="send-class" type="submit">Send</button>
+            <button class="send-class" type="submit" onclick="alertMessage()">Send</button>
         </form>
     </div>
+    <script>
+        function alertMessage() {
+            alert("Thank you. Message received. We will be in contact soon.")
+        }
+    </script>
 </body>
 </html>
