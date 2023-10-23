@@ -248,11 +248,10 @@ input {
         /*text-align: left;*/
         color: #4d041ec5;
         font-size: 20px;
-        /*
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-top: 100px;
+        /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+        margin-top: 30px;
         margin-left: 150px;
-        width: 100%;*/
+        /*width: 100%;*/
     }
 
     .about-page {
@@ -263,7 +262,7 @@ input {
 
     .paragraph {
         margin-top: 250px;
-        margin-right: 10px;
+        margin-left: 10px;
         width: 71rem;
         line-height: 13px;
         font-family: Arial, Helvetica, sans-serif;
