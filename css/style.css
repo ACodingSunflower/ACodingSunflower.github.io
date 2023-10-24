@@ -219,6 +219,15 @@ input {
 }
 
 @media only screen and (max-width: 600px)  {
+    .burger {
+        display: block;
+        position: absolute;
+        height: 25px;
+        left: 260px;
+        top: 50px;
+        background-color: transparent;
+    }
+    
     h1 {
         text-align: left;
         color: black;
@@ -275,15 +284,6 @@ input {
     .about-page {
         background-color: rgba(240, 255, 255, 0.5);
         height: 100%;
-    }
-
-    .burger {
-        display: block;
-        position: absolute;
-        height: 25px;
-        left: 260px;
-        top: 50px;
-        background-color: transparent;
     }
     
     .lists {
