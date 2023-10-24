@@ -273,7 +273,6 @@ input {
     }
 
     .about-page {
-        /*display: flex;*/
         background-color: rgba(240, 255, 255, 0.5);
         height: 100%;
     }
@@ -286,38 +285,47 @@ input {
         top: 50px;
         background-color: transparent;
     }
-
-    .lists {
-        display: flex;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-color: black;
-        height: 100vh;
-    }
     
+    .lists {
+        height: 100%;
+    }
+
     .list-one {
-        margin-top: 250px;
-        margin-left: 850px;
+        margin-top: 200px;
+        margin-left: 80px;
         position: absolute;
     }
     
     .list-two {
-        margin-top: 400px;
-        margin-left: 800px;
+        margin-top: 300px;
+        margin-left: 80px;
         position: absolute;
     }
     
     .list-one li {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2rem;
+        font-size: 15px;
         width: 100%;
         color: azure;
     }
     
     .list-two li {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2rem;
+        font-size: 15px;
         width: 100%;
         color: azure;
+    }
+
+    .proj-heading {
+        margin-left: auto;
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    .form form {
+        margin-left: 20px;
+        margin-top: 100px;
+        height: 400px;
     }
 
 }
