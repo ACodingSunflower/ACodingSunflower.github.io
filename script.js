@@ -3,7 +3,7 @@ const toggleNav = () => {
     if(currentDisplay === "block") {
         document.getElementById('burgerMenu').style.display = "none";
         //display lines
-        document.getElementById('closedMenu').src = "./images/burger.png";
+        document.getElementById('closedMenu').src = "./images/burger.svg";
 
     } else {
         document.getElementById('burgerMenu').style.display = "block";
