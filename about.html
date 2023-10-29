@@ -8,45 +8,47 @@
     <title>Hlobile Makukule - About</title>
 </head>
 <body>
-    <div><img class="burger" src="./images/burger.png" onclick="toggleNav()"></div>
-    <div class="menu" id="burgerMenu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="https://github.com/ACodingSunflower" target="_blank">GitHub Profile</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="#">CV</a>
-                <div class="cv-menu">
-                    <ul>
-                        <li><a href="./CV/Hlobile Makukule SWE-CV.docx.pdf" download="Hlobile Makukule CV">Download CV</a></li>
-                        <li><a href="./CV/Hlobile Makukule SWE-CV.docx.pdf" target="_blank">View CV</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="https://www.linkedin.com/in/hlobile-makukule-7a7a76265/" target="_blank"><img class="logo" src="./images/linkedin-icon-1024x1024-net2o24e.png"/></a></li>
-        </ul>
-    </div>
-    <div class="about-page">
-        <h1 class="journey">An unexpected journey</h1>
-        <p class="paragraph">
-            The most beautiful road to travel on is one surrounded by 
-            nature with a panoramic view, much like the well known 
-            panoramic drive in Mpumalanga. It is a winding road with 
-            many unexpected turns. Every hilltop brings forth breath-taking 
-            views. This is how my journey to web-dev has been. It was not 
-            a linear road, yet it was, and still is, a beautiful road to 
-            travel. It took me a while but I have finally found my passion 
-            in the tech industry. Problem solving is that treacherous uphill 
-            drive that brings forth breath-taking views at the top and what 
-            a joy and an adventure it is. My artistic background gives me 
-            an edge when it comes to delivering simple yet elegant code. 
-            My creativity is an asset when it comes to creatively 
-            solving a problem and my attention to detail ensures very 
-            little room for bugs. With that being said, if you need a break from 
-            coding listen to <a class="music" href="https://hlobeautiful.co.za/" target="_blank">my music.</a>
-        </p>
-    </div>
+    <main>
+        <div><img class="burger" id="closedMenu" src="./images/burger.png" onclick="toggleNav()"></div>
+        <div class="menu" id="burgerMenu">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="https://github.com/ACodingSunflower" target="_blank">GitHub Profile</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="#">CV</a>
+                    <div class="cv-menu">
+                        <ul>
+                            <li class="inner-item"><a href="./CV/Hlobile Makukule SWE-CV.docx.pdf" download="Hlobile Makukule CV">Download CV</a></li>
+                            <li class="inner-item"><a href="./CV/Hlobile Makukule SWE-CV.docx.pdf" target="_blank">View CV</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/hlobile-makukule-7a7a76265/" target="_blank" alt="linkedin logo"><img class="logo" src="./images/linkedin-icon-1024x1024-net2o24e.png"/></a></li>
+            </ul>
+        </div>
+        <div class="about-page">
+            <h1 class="journey">An unexpected journey</h1>
+            <p class="paragraph">
+                The most beautiful road to travel on is one surrounded by 
+                nature with a panoramic view, much like the well known 
+                panoramic drive in Mpumalanga. It is a winding road with 
+                many unexpected turns. Every hilltop brings forth breath-taking 
+                views. This is how my journey to web-dev has been. It was not 
+                a linear road, yet it was, and still is, a beautiful road to 
+                travel. It took me a while but I have finally found my passion 
+                in the tech industry. Problem solving is that treacherous uphill 
+                drive that brings forth breath-taking views at the top and what 
+                a joy and an adventure it is. My artistic background gives me 
+                an edge when it comes to delivering simple yet elegant code. 
+                My creativity is an asset when it comes to creatively 
+                solving a problem and my attention to detail ensures very 
+                little room for bugs. With that being said, if you need a break from 
+                coding listen to <a class="music" href="https://hlobeautiful.co.za/" target="_blank">my music.</a>
+            </p>
+        </div>
+    </main>
 </body>
 </html>
