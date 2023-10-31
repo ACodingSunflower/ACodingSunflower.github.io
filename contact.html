@@ -31,14 +31,14 @@
         </div>
     </main>
     <div class="form">
-        <form>
+        <form onsubmit="alertMessage()">
             <label for="flname">Name and Surname</label><br>
-            <input class="input-class" type="text" id="flname" name="flname"><br><br>
+            <input class="input-class" type="text" id="flname" name="flname" required><br><br>
             <label for="pemail">Email</label><br>
-            <input class="input-class" type="email" id="pemail" name="pemail"><br><br>
+            <input class="input-class" type="email" id="pemail" name="pemail" required><br><br>
             <label for="message">Message</label><br>
-            <textarea class="input-class" name="message" id="message" rows="10" cols="30"></textarea><br><br>
-            <button class="send-class" type="submit" onclick="alertMessage()">Send</button>
+            <textarea class="input-class" name="message" id="message" rows="10" cols="30" required></textarea><br><br>
+            <button class="send-class" type="submit" >Send</button>
         </form>
     </div>
     <script>
